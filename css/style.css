@@ -53,10 +53,13 @@ h1 {
    line-height: 120px;
    opacity: 0;
    transition: .2s;
+   transform: scale(0) rotate(0);
+   color: black;
 }
 
 .gallery li a:hover span {
    opacity: 1;
+   transform: scale(1) rotate(360deg);
 }
 
 .clear {
