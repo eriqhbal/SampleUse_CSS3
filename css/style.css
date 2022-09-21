@@ -38,8 +38,10 @@ h1 {
    /* overflow: hidden; */
    border: 2px solid brown;
    float: left;
-   margin-right: 10px;
+   margin-right: 24px;
    position: relative;
+   display: flex;
+   justify-content: space-evenly;
 }
 
 
